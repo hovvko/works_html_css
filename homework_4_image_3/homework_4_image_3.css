@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+
+}
+.widgets{
+    background: #2edede;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
+
+.father_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.style_big_widget{
+    background: dodgerblue;
+    height: 300px;
+    width: 300px;
+}
+
+.contact{
+    margin-top: 30px;
+}

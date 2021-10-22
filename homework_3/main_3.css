@@ -1,0 +1,31 @@
+body{
+    background: black;
+    margin: 30px;
+}
+.target{
+    text-align: center;
+    color: yellow;
+}
+
+.style_text{
+    color: white;
+    font-size: 23px;
+}
+h2{
+    color: yellow;
+}
+
+li{
+    list-style: square;
+}
+.big_text{
+    font-size: 27px;
+    color: white;
+}
+
+h1,h2,b{
+    border-bottom: 1px solid wheat;
+    box-sizing: border-box;
+    padding: 2px;
+
+}

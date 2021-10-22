@@ -1,0 +1,38 @@
+*{
+    margin-top: 5px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.header{
+    background: cornflowerblue;
+    height: 150px;
+    width: 100%;
+}
+
+.nav{
+    background: blue;
+    height: 100px;
+    width: 100%;
+}
+
+.father_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    background: aqua;
+    height: 500px;
+    width: 74%;
+}
+
+.aside{
+    background: lawngreen;
+    height: 500px;
+    width: 25%;
+}
+
+.footer{
+    background: dodgerblue;
+}

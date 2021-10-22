@@ -1,0 +1,28 @@
+.target{
+    background: black;
+    height: 800px;
+    width: 1600px;
+}
+.block_1{
+    background: #8fcb30;
+    height: 200px;
+    width: 100%;
+    text-align: center ;
+}
+.block_2_3{
+    display: flex;
+}
+
+.block_2{
+    background: #2edede;
+    height: 200px;
+    flex-grow: 2;
+    text-align: center;
+}
+
+.block_3{
+    background: blueviolet;
+    height: 200px;
+    flex-grow: 1;
+    text-align: center;
+}

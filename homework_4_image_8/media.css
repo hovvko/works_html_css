@@ -1,0 +1,220 @@
+@media screen and (max-width: 414px) {
+    .top-menu {
+        height: 30px;
+        width: 414px;
+        display: flex;
+        align-items: center;
+        padding-left: 250px;
+        column-gap: 5px;
+    }
+
+    .soc {
+        width: 30px;
+        height: 10px;
+    }
+
+    .settings {
+        height: 60px;
+    }
+
+    .father_button {
+        padding: 0px;
+        column-gap: 5px;
+        margin-left: 80px;
+    }
+
+    .button {
+        width: 40px;
+        height: 10px;
+    }
+
+    .info {
+        width: 90px;
+        height: 30px;
+        margin-left: -80px;
+    }
+
+    .info_menu {
+        height: auto;
+    }
+
+    .text_container_1, .text_container_2, .text_container_3, .text_container_4, .text_container_5 {
+        column-gap: 10px;
+        padding-top: 20px;
+    }
+
+    .item {
+        height: 10px;
+        width: 30px;
+    }
+
+    .text_container_5 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .main {
+        width: 350px;
+        padding-bottom: 750px;
+    }
+
+    .items_1 {
+        column-gap: 5px;
+        padding-top: 20px;
+    }
+
+    .items_2 {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .style_block {
+        margin-bottom: 50px;
+    }
+
+    .text_27, .text_30, .text_33, .text_36 {
+        width: 70%;
+    }
+
+    .text_26, .text_29, .text_32, .text_35 {
+        width: 30%;
+    }
+
+    .avatars {
+        height: 1100px;
+        display: block;
+        margin: 0;
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+
+    .avatar_2_main {
+        padding: 0;
+        border: 0;
+    }
+
+    .avatar_1, .avatar_2, .avatar_3 {
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .avatar_text {
+        width: 120px;
+    }
+
+    .avatar_text_2 {
+        width: 77px;
+    }
+
+    .avatar_1 {
+        margin-top: 50px;
+    }
+
+    .info_table_main_block {
+        display: block;
+    }
+
+    .info_table {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .info_table_item_2 {
+        margin-left: 200px;
+    }
+
+    .nav_crops_1, .nav_crops_2, .nav_crops_3 {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        column-gap: 10px;
+    }
+
+    .text_info_2 {
+        padding-left: 20px;
+    }
+
+    .info_table_item_15 {
+        height: 20px;
+        width: 70px;
+    }
+
+    .main_items {
+        column-gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .item_text_1, .item_text_2 {
+        height: 10px;
+        width: 70px;
+    }
+
+    .end_info_main {
+        display: block;
+    }
+
+    .end_info_main_block_1, .end_info_main_block_2 {
+        width: 414px;
+        margin: 0;
+    }
+
+    .end_info_main_block_1{
+        margin-top: -80px;
+        height: 300px;
+    }
+
+    .end_info_main_block_2 {
+        margin-top: -80px;
+        height: 300px;
+    }
+
+    .end_info_items_1,.end_info_items_2,.end_info_items_3,.end_info_items_4{
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 50px;
+        column-gap: 10px;
+    }
+
+    .end_info_items_1{
+        padding-top: 50px;
+    }
+
+    .end_info_item_2{
+        padding-left: 70px;
+    }
+
+    .end_info_item_1, .end_info_item_2, .end_info_item_3, .end_info_item_4, .end_info_item_5, .end_info_item_6, .end_info_item_7,.end_info_item_8,.end_info_item_9,.end_info_item_10,.end_info_item_11,.end_info_item_12,.end_info_item_13,.end_info_item_14,.end_info_item_15,.end_info_item_16,.end_info_item_17 {
+        width: 50px;
+        height: 10px;
+    }
+
+    .end_info_item_17{
+        margin-top: 40px;
+        margin-left: -30px;
+        width: 100px;
+        height: 20px;
+    }
+
+    .footer{
+        margin-top: -70px;
+        height: 110px;
+    }
+
+    .footer_item_1,.footer_item_2,.footer_item_3{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .footer_items_2{
+        width: 350px;
+        margin-top: 20px;
+    }
+}
+
+
+
+

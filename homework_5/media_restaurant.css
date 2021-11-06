@@ -1,0 +1,457 @@
+@media screen and (max-width: 320px) {
+    .main_header {
+        width: 320px;
+    }
+
+    .logo img {
+        width: 50px;
+        margin-left: -30px;
+        margin-top: -12px;
+    }
+
+    .mobile_menu {
+        display: block;
+        position: absolute;
+    }
+
+    .mobile_menu_1, .mobile_menu_2, .mobile_menu_3 {
+        position: absolute;
+        background: var(--orange_color);
+        width: 30px;
+        height: 3px;
+        border-radius: 50px;
+        margin-left: 272px;
+        margin-top: 26px;
+    }
+
+    .mobile_menu_2 {
+        margin-top: 33px;
+    }
+
+    .mobile_menu_3 {
+        margin-top: 40px;
+    }
+
+    .nav_item, .number_img, .text_number, .nav_info_text, .button_1, .button_1, .border_line_1, .border_line_2 {
+        display: none;
+    }
+
+    .welcome {
+        font-size: 30px;
+        margin-left: 36px;
+        margin-top: 270px;
+    }
+
+    .our_restaurant {
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 300px;
+    }
+
+    .best_eat_item {
+        color: var(--gray_color);
+        font-size: 18px;
+        margin-left: 75px;
+        margin-top: 370px;
+    }
+
+    .button_2 button {
+        margin-left: 75px;
+        margin-top: 430px;
+        color: var(--gray_color);
+    }
+
+    .desc_block_one, .desc_block_two, .desc_block_three {
+        margin-left: 14px;
+        width: 290px;
+        height: 290px;
+    }
+
+    .description_img {
+        margin-left: 101px;
+        margin-top: 20px;
+    }
+
+    .magic {
+        font-size: 23px;
+        margin-left: 30px;
+    }
+
+    .desc_block_two {
+        margin-top: 1020px;
+    }
+
+    .quality_eat {
+        margin-left: 29px;
+    }
+
+    .excellent_eat {
+        margin-left: 65px;
+    }
+
+    .desc_block_three {
+        margin-top: 1340px;
+    }
+
+    .inexpensive_food {
+        margin-left: 65px;
+    }
+
+    .food_cost {
+        margin-left: 32px;
+    }
+
+    .history_main {
+        position: static;
+    }
+
+    .out_history {
+        font-size: 40px;
+        margin-left: 52px;
+        margin-top: 0;
+    }
+
+    .our_text {
+        margin-left: 39px;
+    }
+
+    .history_description {
+        margin-left: 0;
+        margin-top: 860px;
+    }
+
+    .style_p {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 35px;
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .assortments_number, .drinks, .food, .snacks {
+        position: absolute;
+        margin-left: 0;
+    }
+
+    .drink_number {
+        margin-left: 140px;
+        margin-top: -40px;
+    }
+
+    .drink_text {
+        margin-left: 125px;
+    }
+
+    .drinks {
+        margin-top: 200px;
+    }
+
+    .food {
+        margin-top: 300px;
+    }
+
+    .food_number {
+        margin-left: 130px;
+    }
+
+    .food_text {
+        margin-left: 144px;
+    }
+
+    .snacks {
+        margin-top: 400px;
+    }
+
+    .snacks_number {
+        margin-left: 140px;
+    }
+
+    .snacks_text {
+        margin-left: 126px;
+    }
+
+    .img_history_1 {
+        width: 114px;
+        height: 85px;
+        margin-left: 168px;
+        margin-top: 2450px;
+    }
+
+    .img_history_2 {
+        width: 132px;
+        height: 220px;
+        margin-left: 117px;
+        margin-top: 2425px;
+    }
+
+    .img_history_3 {
+        width: 125px;
+        height: 155px;
+        margin-left: 40px;
+        margin-top: 2453px;
+    }
+
+    .img_history_4 {
+        width: 137px;
+        height: 170px;
+        margin-left: 160px;
+        margin-top: 2530px;
+    }
+
+    .best_restaurant {
+        width: 320px;
+        height: 360px;
+        margin-top: -380px;
+    }
+
+    .celebrate_best_restaurant_text {
+        width: 290px;
+        height: 136px;
+        font-size: 30px;
+        margin-left: 65px;
+        margin-top: 15px;
+    }
+
+    .one_of_text {
+        margin-left: 27px;
+    }
+
+    .restaurant_text {
+        margin-left: 30px;
+    }
+
+    .business_lunch {
+        font-size: 30px;
+        margin-left: 23px;
+        margin-top: 180px;
+    }
+
+    .best_restaurant button {
+        margin-left: 80px;
+        margin-top: 280px;
+    }
+
+    .dishes {
+        height: 1300px;
+    }
+
+    .our_dishes {
+        margin-left: 79px;
+        margin-top: 45px;
+        font-size: 60px;
+    }
+
+    .img_pizza {
+        margin-left: 0;
+        margin-top: 250px;
+    }
+
+    .img_hamburger_1, .img_hamburger_2, .img_hamburger_3 {
+        width: 150px;
+        height: 120px;
+        margin-left: 20px;
+        margin-top: 800px;
+    }
+
+    .img_hamburger_2 {
+        margin-top: 1000px;
+    }
+
+    .img_hamburger_3 {
+        margin-top: 1200px;
+    }
+
+    .dash_1, .dash_2, .dash_3 {
+        display: none;
+    }
+
+    .hamburger_mini_text_1, .hamburger_mini_text_2, .hamburger_mini_text_3 {
+        font-size: 19px;
+        margin-left: 180px;
+        margin-top: 825px;
+    }
+
+    .hamburger_mini_text_2 {
+        margin-top: 1025px;
+    }
+
+    .hamburger_mini_text_3 {
+        margin-top: 1225px;
+    }
+
+    .price_1, .price_2, .price_3 {
+        margin-left: 220px;
+        margin-top: 855px;
+    }
+
+    .price_2 {
+        margin-top: 1055px;
+    }
+
+    .price_3 {
+        margin-top: 1255px;
+    }
+
+    .our_menu_text {
+        margin-left: 14px;
+        margin-top: 60px;
+    }
+
+    .burger_max_bar_2, .burger_max_bar_3 {
+        display: none;
+    }
+
+    .crop_1, .crop_1 {
+        display: none;
+    }
+
+    .menu_hamburger_max {
+        height: 840px;
+    }
+
+    .burger_max_bar {
+        width: 290px;
+        height: 510px;
+        margin-left: 15px;
+        margin-top: 220px;
+    }
+
+    .recommended_button {
+        margin-left: 15px;
+        margin-top: 220px;
+    }
+
+    .img_burger {
+        margin-left: 47px;
+        margin-top: 300px;
+    }
+
+    .burger_max_text {
+        margin-left: 67px;
+        margin-top: 545px;
+    }
+
+    .max_meat_text {
+        margin-left: 83px;
+        margin-top: 594px;
+    }
+
+    .to_order_button {
+        margin-left: 47px;
+        margin-top: 651px;
+    }
+
+    .blue_whale {
+        margin-top: 405px;
+        margin-left: 185px;
+    }
+
+    .text_420 {
+        margin-top: 442px;
+        margin-left: 217px;
+    }
+
+    .response_client {
+        width: 320px;
+        height: 500px;
+    }
+
+    .response_client_text {
+        font-size: 20px;
+        margin-left: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .travel_text {
+        position: absolute;
+        margin-left: -185px;
+    }
+
+    .img_client {
+        margin-left: 110px;
+        margin-top: 260px;
+    }
+
+    .client_text {
+        margin-left: 110px;
+        margin-top: 362px;
+    }
+
+    .name_client {
+        margin-left: 120px;
+        margin-top: 384px;
+    }
+
+    .mini_crop_1 {
+        margin-left: 164px;
+    }
+
+    .mini_crop_2 {
+        margin-left: 150px;
+    }
+
+    .mini_crop_3 {
+        margin-left: 136px;
+    }
+
+    .gallery_dishes_text {
+        font-size: 60px;
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+
+    .dishes_style_text {
+        margin-left: 22px;
+    }
+
+    .img_table_1, .img_coffee_1, .img_goulash_1, .img_coffee_2,.img_table_2{
+        margin-left: 10px;
+        width: 300px;
+        margin-top: 270px;
+    }
+
+    .img_coffee_1 {
+        margin-top: 440px;
+    }
+
+    .img_goulash_1 {
+        margin-top: 780px;
+    }
+
+    .img_coffee_2 {
+        margin-top: 1120px;
+    }
+
+    .img_table_2{
+        margin-top: 1460px;
+    }
+
+    .our_cook_text{
+        font-size: 60px;
+        margin-left: 86px;
+        margin-top: 1670px;
+    }
+
+    .cook_style_text{
+        margin-left: -18px;
+    }
+
+    .img_cook,.img_pizza_cook,.img_chef{
+        margin-left: 10px;
+        width: 300px;
+        margin-top: 1850px;
+    }
+
+    .img_pizza_cook{
+        margin-top: 2266px;
+    }
+
+    .img_chef{
+        margin-top: 2684px;
+    }
+
+    .img_st{
+        margin-top: 3124px;
+    }
+}

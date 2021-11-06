@@ -1,0 +1,782 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+:root{
+    --text_color_white: #FFFFFF;
+    --orange_color: #FF7400;
+    --orange_dark: #D67E35;
+    --silver_dark: #C4C4C4;
+    --dark_light: #656363;
+    --krem_color: #BC9060;
+    --black: black;
+    --gray_color: #E5E5E5;
+
+}
+
+.main_header{
+    width: 1440px;
+    height: 800px;
+    background: url("images/hero image.png");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_top{
+    display: flex;
+}
+
+.logo{
+    position: absolute;
+}
+
+.mobile_menu{
+    display: none;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.nav_item a{
+    color: var(--text_color_white);
+    text-decoration: none;
+    position: absolute;
+}
+
+.cart{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+
+.contacts img{
+    margin-left: 10px;
+}
+
+.button_1 button{
+    background: var(--orange_color);
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--text_color_white);
+    margin-top: 40px;
+    margin-left: 1050px;
+    position: absolute;
+}
+
+.contacts{
+    position: absolute;
+    color: var(--text_color_white);
+    left: 914px;
+    top: 81px;
+}
+
+.number_img{
+    position: absolute;
+    margin-left: 901px;
+    margin-top: 100px;
+}
+
+.text_number{
+    position: absolute;
+    color: var(--text_color_white);
+    margin-left: 930px;
+    margin-top: 95px;
+    font-size: 23px;
+}
+
+.text_number a{
+    text-decoration: none;
+    color: var(--text_color_white);
+}
+
+.nav_info_text{
+    position: absolute;
+    color: var(--text_color_white);
+    margin-left: 901px;
+    margin-top: 160px;
+    font-weight: normal;
+}
+
+.cart{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 135px;
+    border-right: 3px solid var(--text_color_white);
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 39px;
+}
+
+.reservation_text,.about_us_text,.menu_text,.main_text{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 57px;
+}
+
+.about_us_text{
+    margin-left: 640px;
+    white-space : nowrap
+}
+
+.menu_text{
+    margin-left: 580px;
+}
+
+.main_text{
+    margin-left: 500px;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.welcome{
+    position: absolute;
+    font-size: 60px;
+    color: var(--orange_dark);
+    margin-top: 325px;
+    margin-left: 120px;
+}
+
+.our_restaurant{
+    position: absolute;
+    font-size: 80px;
+    color: var(--orange_dark);
+    margin-top: 390px;
+    margin-left: 90px;
+}
+
+.border_line_1,.border_line_2{
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    background: var(--silver_dark);
+    margin-top: 500px;
+    margin-left: 170px;
+}
+
+.best_eat_item{
+    position: absolute;
+    font-size: 20px;
+    color: var(--silver_dark);
+    margin-top: 490px;
+    margin-left: 250px;
+}
+
+.border_line_2{
+    margin-left: 445px;
+}
+
+.button_2 button{
+    position: absolute;
+    background: var(--orange_color);
+    width: 170px;
+    height: 50px;
+    color: var(--text_color_white);
+    margin-top: 530px;
+    margin-left: 260px;
+}
+
+.description_main{
+    position: absolute;
+    display: flex;
+}
+
+.description{
+    position: absolute;
+    width: 350px;
+    height: 330px;
+    background: var(--text_color_white);
+    border: 1px solid var(--silver_dark);
+    margin-top: 700px;
+    margin-left: 165px;
+}
+
+
+.desc_block_two{
+    margin-left: 550px;
+}
+
+.desc_block_three{
+    margin-left: 930px;
+}
+
+.description_img{
+    margin-top: 38px;
+    margin-left: 118px;
+}
+
+.magic{
+    font-size: 25px;
+    margin-left: 43px;
+}
+
+.atmosphere{
+    color: var(--krem_color);
+}
+
+.atmosphere_description{
+    color: var(--dark_light);
+    display: flex;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quality_eat{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.eat_text{
+    color: var(--krem_color);
+}
+
+.excellent_eat{
+    color: var(--dark_light);
+    font-size: 23px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.inexpensive_food{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.foods_text{
+    color: var(--krem_color);
+}
+
+.food_cost{
+    color: var(--dark_light);
+    font-size: 23px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.history_main{
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+}
+
+.out_history{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 400px;
+}
+
+.our_history_text{
+    font-size: 60px;
+}
+
+.history_text{
+    color: var(--orange_dark);
+}
+
+.history_description{
+    width: 400px;
+    height: 216px;
+    margin-top: 480px;
+    margin-left: 400px;
+}
+
+.style_p{
+    font-size: 16px;
+    color: var(--dark_light);
+}
+
+.none_dec{
+    text-decoration: none;
+}
+
+.assortments_number{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 200px;
+
+}
+
+.drinks,.food,.snacks{
+    position: absolute;
+}
+
+.drink_number,.food_number,.snacks_number{
+    font-size: 40px;
+    color: var(--krem_color);
+}
+
+.drink_text,.food_text,.snacks_text{
+    font-size: 20px;
+    color: var(--black);
+}
+
+.drinks{
+    margin-left: 450px;
+
+}
+
+.food{
+    margin-left: 550px;
+}
+
+.snacks{
+    margin-left: 650px;
+}
+
+.img_history{
+    position: absolute;
+}
+
+.img_history_1{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 1205px;
+}
+
+.img_history_2{
+    position: absolute;
+    margin-left: 925px;
+    margin-top: 1172px;
+}
+
+.img_history_3{
+    position: absolute;
+    margin-left: 735px;
+    margin-top: 1236px;
+}
+
+.img_history_4{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 1370px;
+}
+
+.best_restaurant{
+    background: url("images/bg.png");
+    width: 1440px;
+    height: 357px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 990px;
+
+}
+
+.celebrate_best_restaurant_text{
+    position: absolute;
+    font-size: 52px;
+    color: var(--orange_dark);
+    margin-top: 80px;
+    margin-left: 165px;
+}
+
+.business_lunch{
+    position: absolute;
+    font-size: 24px;
+    color: var(--text_color_white);
+    margin-left: 165px;
+    margin-top: 220px;
+}
+
+.best_restaurant button{
+    position: absolute;
+    background: var(--orange_color);
+    width: 160px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--text_color_white);
+    margin-left: 1100px;
+    margin-top: 155px;
+}
+
+.dishes{
+    width: 1440px;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our_dishes{
+    position: absolute;
+    font-size: 54px;
+    margin-top: 132px;
+    margin-left: 588px;
+}
+
+.dishes_text{
+    color: var(--orange_dark);
+}
+
+.img_pizza{
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 150px;
+}
+
+.img_hamburger_1,.img_hamburger_2,.img_hamburger_3{
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 618px;
+}
+
+.img_hamburger_2{
+    margin-top: 502px;
+}
+
+.img_hamburger_3{
+    margin-top: 670px;
+}
+
+.hamburger_mini_text_1,.hamburger_mini_text_2,.hamburger_mini_text_3{
+    position: absolute;
+    font-size: 26px;
+    margin-left: 830px;
+    margin-top: 373px;
+}
+
+.hamburger_mini_text_2{
+    margin-top: 537px;
+}
+
+.hamburger_mini_text_3{
+    margin-top: 712px;
+}
+
+.dash_1,.dash_2,.dash_3{
+    position: absolute;
+    margin-left: 1018px;
+    margin-top: 381px;
+}
+
+.dash_2{
+    margin-top: 545px;
+}
+
+.dash_3{
+    margin-top: 720px;
+}
+
+.price_1,.price_2,.price_3{
+    position: absolute;
+    font-size: 26px;
+    margin-left: 1245px;
+    margin-top: 375px;
+}
+
+.price_2{
+    margin-top: 539px;
+}
+
+.price_3{
+    margin-top: 714px;
+}
+
+.menu_hamburger_max{
+    background: url("images/bar-1869656_1920 2.png");
+    width: 1440px;
+    height: 1034px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.our_menu_text{
+    position: absolute;
+    font-size: 54px;
+    color: var(--text_color_white);
+    margin-top: 98px;
+    margin-left: 588px;
+}
+
+.burger_max_bar,.burger_max_bar_2,.burger_max_bar_3{
+    background: var(--text_color_white);
+    position: absolute;
+    width: 350px;
+    height: 510px;
+    margin-left: 165px;
+    margin-top: 298px;
+}
+
+.img_burger,.img_burger_2,.img_burger_3{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 378px;
+    margin-left: 225px;
+}
+
+.burger_max_text,.burger_max_text_2,.burger_max_text_3{
+    position: absolute;
+    font-size: 26px;
+    margin-top: 625px;
+    margin-left: 246px;
+}
+
+.max_meat_text,.max_meat_text_2,.max_meat_text_3{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 665px;
+    margin-left: 260px;
+}
+
+.to_order_button,.to_order_button_2,.to_order_button_3{
+    background: var(--orange_dark);
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    color: var(--text_color_white);
+    margin-top: 729px;
+    margin-left: 230px;
+}
+
+.recommended_button,.recommended_button_2,.recommended_button_3{
+    background: var(--orange_dark);
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    font-size: 13px;
+    margin-top: 298px;
+    margin-left: 165px;
+}
+
+.blue_whale,.blue_whale_2,.blue_whale_3{
+    background: var(--orange_dark);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px solid var(--text_color_white);
+    margin-top: 503px;
+    margin-left: 357px;
+}
+
+.text_420,.text_420_2,.text_420_3{
+    color: var(--text_color_white);
+    position: absolute;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 539px;
+    margin-left: 389px;
+}
+
+.burger_max_bar_2{
+    margin-left: 545px;
+}
+
+.img_burger_2{
+    margin-left: 605px;
+}
+
+.burger_max_text_2{
+    margin-left: 627px;
+}
+
+.max_meat_text_2{
+    margin-left: 640px;
+}
+
+.to_order_button_2{
+    margin-left: 611px;
+}
+
+.blue_whale_2{
+    margin-left: 734px;
+}
+
+.text_420_2{
+    margin-left: 765px;
+}
+
+.burger_max_bar_3{
+    margin-left: 925px;
+}
+
+.img_burger_3{
+    margin-left: 987px;
+}
+
+.burger_max_text_3{
+    margin-left: 1008px;
+}
+
+.max_meat_text_3{
+    margin-left: 1020px;
+}
+
+.to_order_button_3{
+    margin-left: 992px;
+}
+
+.blue_whale_3{
+    margin-left: 1115px;
+}
+
+.text_420_3{
+    margin-left: 1147px;
+}
+
+.crop_1,.crop_2{
+    position: absolute;
+    background: var(--orange_dark);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 534px;
+    margin-left: 75px;
+}
+
+.crop_2{
+    margin-left: 1325px;
+}
+
+.response_client{
+    background: var(--gray_color);
+    width: 1440px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.response_client_text{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 341px;
+    margin-top: 104px;
+}
+
+.img_client{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 231px;
+    margin-left: 670px;
+}
+
+.client_text,.name_client{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 348px;
+    margin-left: 670px;
+}
+
+.name_client{
+    margin-top: 384px;
+    margin-left: 684px;
+}
+
+.mini_crop_1{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: var(--gray_color);
+    border-radius: 50%;
+    border: 1px solid var(--orange_color);
+    margin-top: 435px;
+    margin-left: 740px;
+}
+
+.mini_crop_2,.mini_crop_3{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #C4C4C4;
+    margin-top: 437px;
+    border-radius: 50%;
+}
+
+.mini_crop_2{
+    margin-left: 718px;
+}
+
+.mini_crop_3{
+    margin-left: 728px;
+}
+
+.gallery_dishes{
+    width: 1440px;
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery_dishes_text{
+    position: absolute;
+    font-size: 54px;
+    margin-top: 101px;
+    margin-left: 576px;
+}
+
+.dishes_style_text{
+    color: var(--orange_dark);
+}
+
+.img_table_1,.img_coffee_1,.img_goulash_1{
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 167px;
+}
+
+.img_coffee_1{
+    margin-left: 733px;
+}
+
+.img_goulash_1{
+    margin-top: 223px;
+    margin-left: 1016px;
+}
+
+.img_table_2,.img_coffee_2,.img_goulash_2{
+    position: absolute;
+    margin-top: 527px;
+    margin-left: 166px;
+}
+
+.img_table_2{
+    margin-left: 733px;
+}
+
+.img_goulash_2{
+    margin-left: 453px;
+}
+
+.our_cook_text{
+    position: absolute;
+    font-size: 54px;
+    margin-top: 901px;
+    margin-left: 564px;
+}
+
+.cook_style_text{
+    color: var(--orange_dark);
+}
+
+.img_cook,.img_pizza_cook,.img_chef{
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: 165px;
+}
+
+.img_chef{
+    margin-left: 927px;
+}
+
+.img_pizza_cook{
+    margin-left: 547px;
+}
+
+.img_st{
+    position: absolute;
+    margin-top: 1632px;
+}
